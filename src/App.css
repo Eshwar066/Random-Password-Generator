@@ -1,0 +1,42 @@
+*{
+  font-family: Arial;
+}
+
+.container{
+  background-color:darkslategrey;
+  color: white;
+  padding: 24px;
+  border: solid black 2px;
+  width: 500px;
+  font-weight: 900;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color:turquoise;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-weight: 500;
+}
+
+.generateBtn{
+  width:450px;
+  padding: 10px;
+}
